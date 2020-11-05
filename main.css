@@ -45,18 +45,19 @@ body {
   color: white;
 }
 
-button {
+a {
+  display: block;
+  width: 50px;
+  margin: 10px 5px;
+  padding: 20px 0;
   background: none;
   color: white;
-  padding: 20px 10px;
   font-size: 2rem;
-  width: 75px;
-  margin: 10px 5px;
+  text-decoration: none
 }
 
-button:hover{cursor: pointer}
+a:hover{cursor: pointer}
 img{max-width: 360px}
-a{text-decoration: none}
 
 footer > span{
   opacity: .5;
