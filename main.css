@@ -54,19 +54,17 @@ button {
   margin: 10px 5px;
 }
 
-img{
-  max-width: 360px
-}
-
-a{
-  text-decoration: none;
-}
-
-button:hover{
-  box-shadow: 0 2px 10px #fff
-}
-
+img{max-width: 360px}
+a{text-decoration: none}
 footer > span{
   opacity: .5;
   font-size: .7rem;
 }
+/* Hover colors */
+.tg-hover:hover{color: #0088CC; border-color: #0088CC}
+.dc-hover:hover{color: #738ADB; border-color: #738ADB}
+.gh-hover:hover{color: #6CC644; border-color: #6CC644}
+.vk-hover:hover{color: #1A4B78; border-color: #1A4B78}
+.ig-hover:hover{color: #DD2A7B; border-color: #DD2A7B}
+.tw-hover:hover{color: #55ACEE; border-color: #55ACEE}
+.mail-hover:hover{color: #D44638; border-color: #D44638}
